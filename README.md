@@ -1,6 +1,6 @@
 # Richard Onyango — Portfolio Website
 
-A modern, responsive single-page portfolio website built with React and Vite, designed to present my background, projects, and technical skills clearly to recruiters and hiring managers. The project emphasizes clean structure, accessibility, and real-world frontend best practices.
+A modern, responsive single-page portfolio website built with React and Vite, designed to present my background, projects, and technical skills. The project emphasizes clean structure, accessibility, and real-world frontend best practices.
 
 🔗 Live Demo: (add link)  
 🔗 GitHub: https://github.com/ochiengrichie
@@ -163,7 +163,7 @@ I am currently seeking junior frontend or full-stack internship roles, particula
 
 ## License
 
-No license specified. Add a `LICENSE` file if open-sourcing.
+MIT
 
 ## Contact
 
