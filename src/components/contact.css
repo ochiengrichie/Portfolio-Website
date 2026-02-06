@@ -1,0 +1,113 @@
+.contact-section {
+  padding: 80px 0;
+  background: #111827;
+  color: #f7f4ef;
+}
+
+.contact-container {
+  max-width: 64rem;
+  margin: 0 auto;
+  padding: 0 1rem;
+  display: grid;
+  gap: 2rem;
+}
+
+.contact-header {
+  text-align: center;
+}
+
+.contact-title {
+  font-size: 2.25rem;
+  font-weight: 700;
+  margin: 0;
+}
+
+.contact-subtitle {
+  margin: 0.75rem auto 0;
+  max-width: 36rem;
+  color: #f7f4ef;
+}
+
+.contact-form {
+  width: 100%;
+  max-width: 36rem;
+  margin: 0 auto;
+  display: grid;
+  gap: 1rem;
+  padding: 2rem;
+  background: #fff;
+  border: 2px solid #111;
+  border-radius: 16px;
+  color: #111827;
+}
+
+.contact-field {
+  display: grid;
+  gap: 0.5rem;
+}
+
+.contact-label {
+  font-weight: 600;
+  color: #111827;
+}
+
+.contact-input {
+  width: 100%;
+  padding: 0.9rem 1rem;
+  border: 1px solid #d1d5db;
+  border-radius: 12px;
+  font-size: 1rem;
+  background: #fafafa;
+  color: #111827;
+}
+
+.contact-input:focus {
+  outline: 2px solid #111827;
+  outline-offset: 2px;
+  background: #fff;
+}
+
+.contact-textarea {
+  min-height: 140px;
+  resize: vertical;
+}
+
+.contact-button {
+  padding: 0.9rem 1rem;
+  border: none;
+  border-radius: 12px;
+  background: #111827;
+  color: #fff;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.contact-button:hover {
+  background: #1f2937;
+}
+
+.contact-note {
+  margin: 0;
+  font-size: 0.9rem;
+  color: #0550e7;
+  text-align: center;
+}
+
+.contact-honeypot {
+  position: absolute;
+  left: -9999px;
+  top: auto;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+}
+
+@media (max-width: 768px) {
+  .contact-section {
+    padding: 32px 0 48px;
+  }
+
+  .contact-form {
+    padding: 1.25rem;
+  }
+}
