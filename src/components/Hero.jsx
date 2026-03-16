@@ -3,6 +3,7 @@ import heroPhoto from "../assets/image/richard.jpg";
 // import linkedinIcon from "../assets/image/tools/linkedin.png";
 // import gitLogo from "../assets/image/tools/GitHub-Logo.wine.svg";
 
+const cvFileUrl = `${import.meta.env.BASE_URL}Richard%20Cv.pdf`;
 
 export default function Hero() {
   return (
@@ -19,6 +20,11 @@ export default function Hero() {
             </a>
             <a href="https://github.com/ochiengrichie" target="_blank" rel="noreferrer" className="social-link">
             {/* <img src={gitLogo} alt="github" />*/}GitHub
+            </a>
+          </div>
+          <div className="cv-download-button">
+            <a href={cvFileUrl} download="Richard-CV.pdf" className="cv-download-link">
+              Download CV
             </a>
           </div>
         </div>

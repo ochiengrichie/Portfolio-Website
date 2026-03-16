@@ -14,7 +14,6 @@ This portfolio was built to demonstrate:
 - Attention to accessibility and user experience
 - Ability to deploy and maintain a production-ready frontend project
 
-Rather than relying on UI libraries, the project focuses on core frontend principles that translate directly to real-world work.
 
 ## Features
 
