@@ -39,7 +39,7 @@ body {
 }
 
 .section-block {
-  min-height: 100vh;
+  min-height: auto;
   padding: 0;
 }
 @media (max-width: 768px) {
